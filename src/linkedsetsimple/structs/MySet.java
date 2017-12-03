@@ -111,7 +111,4 @@ public class MySet<E> implements Set<E>
         }
         return false;
     }
-    public void dump(){
-        map.dump();
-    }
 }

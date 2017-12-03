@@ -197,33 +197,12 @@ public class MyMap<K,V> implements Map<K,V>
         table[hash] = new Entry(key, value);
         size++;
     }
-    
-    
-    void dump() {
-            // This method is NOT part of the usual interface for
-            // a hash table.  It is here only to be used for testing
-            // purposes, and should be removed before the class is 
-            // released for general use.  This lists the (key,value)
-            // pairs in each location of the table.
-        System.out.println();
-        for (int i = 0; i < table.length; i++) {
-              // Print out the location number and the list of
-              // key/value pairs in this location.
-            System.out.print(i + ":");
-            Entry list = table[i]; // For traversing linked list number i.
-            while (list != null) {
-               System.out.print("  (" + list.key + ")");
-               list = list.next;
-            }
-            System.out.println();
-        }
-    }
     /**
      * Transferiere toda una estructura de tipo Map a 
      * nuestro HashMap "casero"
      * 
      * @param m -> mapa de clave/valor
-     */
+    */
     @Override
     public void putAll(Map<? extends K, ? extends V> m) {
         if(m.size() > 0){
