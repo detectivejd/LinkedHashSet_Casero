@@ -176,11 +176,8 @@ public class MyMap<K,V> implements Map<K,V>
             table = Arrays.copyOf(table, table.length * 2);
             this.clear();
             for (Entry<K, V> e : tmp) {     
-                if(e != null){
+                for(;e != null; e = e.next){
                     put(e.getKey(),e.getValue());
-                    for(;e != null; e = e.next){
-                        put(e.getKey(),e.getValue());
-                    }
                 }
             } 
         }

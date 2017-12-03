@@ -36,8 +36,9 @@ public class UpTest extends Test
                 }            
             }            
             for(String s : set){
-                this.comprobar_que(set.contains(s));
+                System.out.println(s);
             }
+            System.out.println("");
         }
     //</editor-fold>
     @Override
