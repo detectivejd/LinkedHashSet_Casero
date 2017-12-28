@@ -63,6 +63,5 @@ public class UnionTest extends Test
         } catch(Exception ex){
             ex.printStackTrace();
         }
-    }
-    
+    }    
 }

@@ -1,7 +1,5 @@
 package linkedsetsimple.test;
-
 import linkedsetsimple.structs.MyLinkedSet;
-
 public class DifferenceTest extends Test
 {
     //<editor-fold desc="relleno de datos">

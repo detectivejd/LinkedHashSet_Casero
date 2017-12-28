@@ -1,7 +1,5 @@
 package linkedsetsimple.test;
-
 import linkedsetsimple.structs.MyLinkedSet;
-
 public class ToArrayTest extends Test
 {
     MyLinkedSet<String> set;

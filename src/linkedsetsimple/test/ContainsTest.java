@@ -1,7 +1,5 @@
 package linkedsetsimple.test;
-
 import linkedsetsimple.structs.MyLinkedSet;
-
 public class ContainsTest extends Test
 {
     MyLinkedSet<String> set;

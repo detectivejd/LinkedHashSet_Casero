@@ -1,8 +1,6 @@
 package linkedsetsimple.test;
-
 import linkedsetsimple.structs.MyMap;
 import linkedsetsimple.structs.MyLinkedSet;
-
 public class ConstructorTest extends Test
 {
     private void creando_set_vacio() throws Exception{

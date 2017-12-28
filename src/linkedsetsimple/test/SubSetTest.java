@@ -1,7 +1,5 @@
 package linkedsetsimple.test;
-
 import linkedsetsimple.structs.MyLinkedSet;
-
 public class SubSetTest extends Test
 {
     //<editor-fold desc="relleno de datos">
@@ -58,6 +56,5 @@ public class SubSetTest extends Test
         } catch(Exception ex){
             ex.printStackTrace();
         }
-    }
-    
+    }   
 }
