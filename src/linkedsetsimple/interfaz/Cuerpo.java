@@ -22,5 +22,7 @@ public class Cuerpo
         t1.test();
         t1 = new SubSetTest();
         t1.test();
+        t1 = new PointersTest();
+        t1.test();
     }    
 }
